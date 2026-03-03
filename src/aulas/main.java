@@ -16,5 +16,7 @@ public class main
 
         System.out.println(fusca.getCor());
         System.out.println(fusca.getIdade());
+
+        Pessoa maicon = new Pessoa()
     }
 }
