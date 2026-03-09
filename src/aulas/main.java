@@ -17,6 +17,8 @@ public class main
         System.out.println(fusca.getCor());
         System.out.println(fusca.getIdade());
 
-        Pessoa maicon = new Pessoa()
+ //       Pessoa maicon = new Pessoa("maicon","1290372098374");
+        Pessoa maicon = new Aluno("maicon","1290372098374");
+        Professor joao = new Professor("joao","1209831", 1500 );
     }
 }

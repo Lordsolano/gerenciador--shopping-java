@@ -18,6 +18,10 @@ public class Pessoa {
         return cpf;
     }
 
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
     public void setnome(String nome) {
         this.nome = nome;
     }
