@@ -20,5 +20,10 @@ public class main
  //       Pessoa maicon = new Pessoa("maicon","1290372098374");
         Pessoa maicon = new Aluno("maicon","1290372098374");
         Professor joao = new Professor("joao","1209831", 1500 );
+
+        maicon.CalcularPontos(20);
+        joao.CalcularPontos(40);
+        System.out.println(maicon.getPontos());
+        System.out.println(joao.getPontos());
     }
 }

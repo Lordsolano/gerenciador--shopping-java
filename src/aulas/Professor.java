@@ -17,4 +17,9 @@ public class Professor extends Pessoa {
     public int getSalario() {
         return Salario;
     }
+    @Override
+    public void CalcularPontos(int minutos) {
+        int pontos = minutos * 3;
+        this.setPontos(pontos);
+    }
 }
