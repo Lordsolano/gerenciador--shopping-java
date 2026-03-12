@@ -39,5 +39,10 @@ public abstract class Pessoa {
         this.pontos += pontos;
     }
 
+
+    public String ImprimirSaudacao(){
+        return "Olá pessoa" + this.nome;
+    }
+
     public abstract void CalcularPontos(int minutos);
 }

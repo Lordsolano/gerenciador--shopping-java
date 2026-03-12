@@ -1,6 +1,6 @@
 package aulas;
 
-public class Professor extends Pessoa {
+public class Professor extends Pessoa implements Usuario {
 
     private int Salario;
 
@@ -17,9 +17,14 @@ public class Professor extends Pessoa {
     public int getSalario() {
         return Salario;
     }
+
     @Override
     public void CalcularPontos(int minutos) {
         int pontos = minutos * 3;
         this.setPontos(pontos);
+    }
+
+    public String ImprimirSaudacao(){
+        return "olá professor: " + this.getNome();
     }
 }

@@ -23,7 +23,12 @@ public class main
 
         maicon.CalcularPontos(20);
         joao.CalcularPontos(40);
-        System.out.println(maicon.getPontos());
-        System.out.println(joao.getPontos());
+        //System.out.println(maicon.getPontos());
+//System.out.println(joao.getPontos());
+        System.out.println(joao.ImprimirSaudacao());
+        System.out.println(maicon.ImprimirSaudacao());
+
+
     }
+
 }
