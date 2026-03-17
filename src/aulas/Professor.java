@@ -24,7 +24,7 @@ public class Professor extends Pessoa implements Usuario {
         this.setPontos(pontos);
     }
 
-    public String ImprimirSaudacao(){
+    public String ImprimeSaudacao(){
         return "olá professor: " + this.getNome();
     }
 }

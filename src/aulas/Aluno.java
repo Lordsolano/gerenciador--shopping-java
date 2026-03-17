@@ -12,7 +12,7 @@ public class Aluno extends Pessoa implements Usuario{
         this.setPontos(pontos);
 
     }
-    public String ImprimirSaudacao(){
+    public String ImprimeSaudacao(){
         return "olá Aluno: " + this.getNome();
     }
 }
