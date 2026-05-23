@@ -1,4 +1,4 @@
-package colettion;
+package colettion.list;
 
 public class Pessoa {
     private String nome;
